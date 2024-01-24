@@ -1,4 +1,5 @@
 import './App.css';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <h1>Its a Twitter Clone Baby</h1>
 
       {/* SideBar */}
-
+      <Sidebar />
       {/* Feed */}
       
       {/* Widgets */}
