@@ -8,6 +8,7 @@ function App() {
 
       {/* SideBar */}
       <Sidebar />
+      
       {/* Feed */}
       
       {/* Widgets */}

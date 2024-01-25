@@ -20,3 +20,7 @@
     font-size: 20px;
     margin-right: 20px;
 }
+
+.sidebarOption--active {
+    color: var(--twitter-color);
+}
