@@ -3,9 +3,13 @@ import './Feed.css'
 
 function Feed() {
   return (
-    <div>
+    <div className='feed'>
       {/* Header*/}
-      <h2>This is home page</h2>
+      <div className='feed__header'>
+         
+        <h2>Home</h2>
+
+      </div>
       {/* Tweetbox */}
       {/* Post*/}
     </div>
