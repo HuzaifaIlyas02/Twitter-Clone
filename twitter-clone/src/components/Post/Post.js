@@ -39,10 +39,10 @@ function Post({
                 <img src="https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif" alt=""/>
 
                 <div className='post__footer'>
-                    <ChatBubbleOutlineIcon fontSize='small' />
-                    <RepeatIcon fontSize='small' />
-                    <FavoriteBorderIcon fontSize='small' />
-                    <PublishIcon fontSize='small' />
+                    <ChatBubbleOutlineIcon className="comment" fontSize='small' />
+                    <RepeatIcon className="repost" fontSize='small' />
+                    <FavoriteBorderIcon className="like" fontSize='small' />
+                    <PublishIcon className="share" fontSize='small' />
                 </div>
             </div>
         </div>

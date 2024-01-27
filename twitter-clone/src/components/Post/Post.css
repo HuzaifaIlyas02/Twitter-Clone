@@ -34,6 +34,7 @@
 .post__headerText > h3{
     font-size: 15px;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .post__headerDescription{
@@ -50,10 +51,32 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    cursor: pointer;
+    display: flex;
 }
 
 .post__headerSpecial{
     font-weight: 600;
     font-size: 12px;
     color: gray;
+}
+
+.comment:hover{
+    color: var(--twitter-color);
+    transition: color 0.2s ease-out;
+}
+
+.repost:hover{
+    color: #32CD32;
+    transition: color 0.2s ease-out;
+}
+
+.like:hover{
+    color: #DC143C;
+    transition: color 0.2s ease-out;
+}
+
+.share:hover{
+    color: var(--twitter-color);
+    transition: color 0.2s ease-out;
 }
