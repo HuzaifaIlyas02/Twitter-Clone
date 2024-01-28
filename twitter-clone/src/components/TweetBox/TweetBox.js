@@ -7,7 +7,7 @@ function TweetBox() {
     <div className='tweetBox'>
       <form>
         <div className='tweetBox__input'>
-        <Avatar src="C:\Users\PMYLS\Desktop\Twitter-Clone\pngegg.png" />
+        <Avatar src={process.env.PUBLIC_URL + "/avatar.png"} />
         <input placeholder="What's happening?" type='text' />
         </div>
         <input className='tweetBox__imageInput'
