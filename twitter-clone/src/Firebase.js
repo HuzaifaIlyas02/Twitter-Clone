@@ -1,5 +1,8 @@
-import firebase from 'firebase';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 
+// Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyDyUlCP_quheP8Eyoado-xGl9nEKCjsRNw",
     authDomain: "twitter-clone-16b14.firebaseapp.com",
@@ -10,8 +13,10 @@ const firebaseConfig = {
     measurementId: "G-HT2H5P0HPE"
 };
 
-const firebaseApp = firebase.initializeApp(firebaseConfig);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-const db = firebaseApp.firestore();
+// Initialize Firestore
+const db = getFirestore(app);
 
 export default db;
